@@ -38,9 +38,10 @@ public class IdeaUtil {
 	
 	
 	public static String getCurrentDate(){
-		 DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+		 DateFormat df = new SimpleDateFormat();
+
 	       Date dateobj = new Date();
-	       System.out.println(df.format(dateobj));
+	      // System.out.println(df.format(dateobj));
 
 	       /*getting current date time using calendar class 
 	        * An Alternative of above*/

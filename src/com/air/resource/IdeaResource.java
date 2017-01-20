@@ -74,7 +74,6 @@ public class IdeaResource {
 	        JAXBContext jaxbContext = JAXBContext.newInstance(Table.class);
 	        result = IdeaUtil.asString(jaxbContext,table);			
 			
-			
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -31,7 +31,7 @@ public class Table {
 	private String localTime;
 	
 	
-	@XmlElement(name="LocalTime") 
+	@XmlElement(name="DataAccessedTimestamp") 
 	public String getLocaltime() {
 		return localTime;
 	}
