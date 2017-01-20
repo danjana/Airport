@@ -19,6 +19,8 @@ import java.net.URI;
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.*;
 
+//@author Anjana
+//This class is used to generate test cases for IdeaResource.java
 public class IdeaResourceTest {
 
 	    static final URI BASE_URI = getBaseURI();
