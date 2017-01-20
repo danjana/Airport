@@ -16,6 +16,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
+//@author Anjana
+//This IdeaUtil class is to write the common methods like parsing the response XML and generation of data accessed time stamp
 public class IdeaUtil {
 
 	public static List<Table> parseTheXML(String result){
