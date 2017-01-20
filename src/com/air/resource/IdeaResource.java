@@ -18,7 +18,8 @@ import net.webservicex.CountrySoap;
 
 import com.sun.jndi.toolkit.url.Uri;
 
-
+//@author Anjana
+//This IdealResource class implements the main code
 @Path("/test")
 public class IdeaResource {
 
