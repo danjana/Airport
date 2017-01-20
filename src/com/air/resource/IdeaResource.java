@@ -50,10 +50,10 @@ public class IdeaResource {
 	        	airportName = airportInfo.getCityOrAirportName();
 	        } 
 	        
-	        //Pass the country name retruned in getAirportInformationByAirportCode to getCurrencyByCountry()
+	        //Pass the country name returned in getAirportInformationByAirportCode to getCurrencyByCountry()
 	        result = getCurrencyByCountry(country);   
 	        
-	        // Prase the out put return by getCurrencyByCountry
+	        // Parse the output return by getCurrencyByCountry
 	        List<Table> currencyInfoList = IdeaUtil.parseTheXML(result);
 	       	        
 	        for(Table currencyInfo:currencyInfoList){  
@@ -61,7 +61,7 @@ public class IdeaResource {
 	        	currencyName = currencyInfo.getCurrency();
 	        }
 	        
-	        //Create a custom Response.
+	        //Created a custom Response with the required data elements.
 	       	        
 	        Table table = new Table();
 	        table.setAirportCode(airportCd);

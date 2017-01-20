@@ -36,15 +36,10 @@ public class IdeaUtil {
 		return newDataSet.getTable();
 	}
 	
-	
+	// This is to get Data Accessed Timestamp
 	public static String getCurrentDate(){
 		 DateFormat df = new SimpleDateFormat();
-
 	       Date dateobj = new Date();
-	      // System.out.println(df.format(dateobj));
-
-	       /*getting current date time using calendar class 
-	        * An Alternative of above*/
 	       Calendar calobj = Calendar.getInstance();
 	       return df.format(calobj.getTime());
 	}

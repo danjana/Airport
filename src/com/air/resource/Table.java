@@ -1,7 +1,5 @@
 package com.air.resource;
 
-import java.util.List;
-
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -192,6 +190,5 @@ public class Table {
 	public void setLongitudeEperW(String longitudeEperW) {
 		this.longitudeEperW = longitudeEperW;
 	}
-	
-	  
+  
 }
