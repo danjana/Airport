@@ -2,7 +2,8 @@ package com.air.resource;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-
+//@author Anjana
+//This class is to parse the XML output from two SOAP API’s.
 @XmlRootElement(name = "Table")
 public class Table {
 	
