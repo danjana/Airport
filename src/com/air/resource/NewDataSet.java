@@ -4,6 +4,8 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+//@author Anjana
+//This class is to parse the XML output 
 
 @XmlRootElement(name = "NewDataSet")
 public class NewDataSet {
